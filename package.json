@@ -1,0 +1,26 @@
+{
+  "name": "kks_testing_library",
+  "version": "1.0.0",
+  "description": "A npm library for testing purpose",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikkaradigudd/kks_testing_library.git"
+  },
+  "keywords": [],
+  "author": "Kartik K<kartikkardigudd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikkaradigudd/kks_testing_library/issues"
+  },
+  "homepage": "https://github.com/kartikkaradigudd/kks_testing_library#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["dist/**/*"]
+}
